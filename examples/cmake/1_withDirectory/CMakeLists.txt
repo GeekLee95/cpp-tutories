@@ -3,7 +3,7 @@ project(cmake_examples)
 
 include_directories(include)
 
-file(GLOB SOURCES "src/*.cpp")
+	file(GLOB SOURCES "src/*.cpp")
 
 add_executable(withDirectory ${SOURCES})
 
